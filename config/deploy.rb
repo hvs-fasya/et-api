@@ -10,6 +10,8 @@ set :repo_url, "git@github.com:hvs-fasya/et-api.git"
 # Default deploy_to directory is /var/www/my_app_name
 set :deploy_to, "/home/deployer-api/apps/et-api"
 
+set :tmp_dir, "/home/deployer-api/tmp/capistrano"
+
 # Default value for :format is :airbrussh.
 # set :format, :airbrussh
 
