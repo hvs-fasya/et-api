@@ -153,6 +153,7 @@ DEPENDENCIES
   capistrano-rails
   capistrano-rvm
   capistrano3-puma
+  listen
   puma (~> 3.7)
   rails (~> 5.1.1)
   spring
